@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="ja" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <link rel="stylesheet" href="main.css?201907141911">
+    <title>Minesweeper</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Minesweeper</h1>
+      <canvas id="main" width="600" height="600"></canvas>
+      <script type="text/javascript" src="main.js"></script>
+    </div>
+    <div class="main">
+      <button type="button" id="reset" onClick="main()">リセット</button>
+      <button type="button" id="reset" onClick="main(true)">デバッグモード</button>
+    </div>
+  </body>
+</html>
